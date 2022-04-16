@@ -1,13 +1,13 @@
 # Site settings
-title: charryglomc
-SEOTitle: 春风化雨的博客
+title: 捕风的legend
+SEOTitle: 捕风的legend的博客
 header-img: img/post-bg-desk.jpg
-email: 798577670@qq.com
-description: "charryglomc"
-keyword: "春风化雨的博客, cfhyxxj"
-url: "http://cfhyxxj.github.io"          # your host, for absolute URL
+email: 2862150107@qq.com
+description: "捕风的legend"
+keyword: "捕风的legend的博客, legend"
+url: "http://realzhangqingwei.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/cfhyxxj/cfhyxxj.github.io.git" # you code repository
+github_repo: "https://github.com/realzhangqingwei/realzhangqingwei.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -20,7 +20,7 @@ sidebar-avatar: /img/zz.png      # use absolute URL, seeing it's used in both `/
 RSS: false
 # weibo_username:     
 #zhihu_username:     
-github_username:    cfhyxxj
+github_username:    realzhangqingwei
 #facebook_username:  
 #jianshu_username:   
 #twitter_username:  
