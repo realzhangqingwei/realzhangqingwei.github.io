@@ -11,7 +11,7 @@ github_repo: "https://github.com/realzhangqingwei/realzhangqingwei.github.io.git
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "花开堪折直须折,莫待无花空折枝"
+sidebar-about-description: "爱拼才会赢, 风雨之后见彩虹"
 sidebar-avatar: /img/zz.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
