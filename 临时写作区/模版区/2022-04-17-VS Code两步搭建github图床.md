@@ -94,7 +94,6 @@ Path要和Repo搭配使用，到时候上传的图片就会到**Repo+Path**目�
 
 #### (2)、`ctrl+alt+u`
 
-
 从剪贴板插入图片
 
 #### (3)、`ctrl+alt+o`
@@ -108,4 +107,4 @@ Path要和Repo搭配使用，到时候上传的图片就会到**Repo+Path**目�
 
 ### 四、  参考链接
 
-[[https://mp.weixin.qq.com/s/2HnFrcwxHr5g2VvRB2N_JQ]()]()
+1、[https://mp.weixin.qq.com/s/2HnFrcwxHr5g2VvRB2N_JQ](https://mp.weixin.qq.com/s/2HnFrcwxHr5g2VvRB2N_JQ)
