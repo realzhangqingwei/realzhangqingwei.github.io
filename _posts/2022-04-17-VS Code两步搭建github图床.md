@@ -89,5 +89,3 @@ Path要和Repo搭配使用，到时候上传的图片就会到**Repo+Path**目�
 从输入目录插入图片，相对目录和绝对目录都行
 
 > 从命令看，说一键不太准确，也就两三键吧。
-
-![![20220417102417](httpsraw.githubusercontent.comrealzhangqingweirealzhangqingwei.github.iomasterimgs_for_blogs20220417102417.png)](https://raw.githubusercontent.com/realzhangqingwei/realzhangqingwei.github.io/master/imgs_for_blogs/!%5B20220417102417%5D(httpsraw.githubusercontent.comrealzhangqingweirealzhangqingwei.github.iomasterimgs_for_blogs20220417102417.png).png)
