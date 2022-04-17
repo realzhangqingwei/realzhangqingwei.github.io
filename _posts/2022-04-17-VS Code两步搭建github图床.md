@@ -11,9 +11,9 @@ tags:
     - 扩展
 ---
 
-## 最终效果
+## 一、最终效果
 
-## VS Code中，可以 **实现图片的一键上传和引用返回** 。免费图床，简单好用～
+VS Code中，可以 **实现图片的一键上传和引用返回** 。免费图床，简单好用～
 
 ## 写在前面
 
@@ -23,11 +23,11 @@ tags:
 
 痛定思痛决定搭建个github的图床，没想到这么简单就搞定了～
 
-## 1. VScode插件PicGo
+### 1. VScode插件PicGo
 
 需要用到Picgo这个插件，直接在vscode中搜索安装就行。
 
-## 2. PicGo的Github配置
+### 2. PicGo的Github配置
 
 打开设置，找到extensions中的Picgo的设置
 
@@ -73,7 +73,7 @@ Path要和Repo搭配使用，到时候上传的图片就会到**Repo+Path**目�
 
 最后把token复制到PicGo设置里的Github Token里就行。然后就可以在vscode里使用图床了。
 
-## 3.图床命令
+### 3.图床命令
 
 三个简要命令：
 
