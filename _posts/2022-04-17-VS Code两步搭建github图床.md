@@ -90,4 +90,4 @@ Path要和Repo搭配使用，到时候上传的图片就会到**Repo+Path**目�
 
 > 从命令看，说一键不太准确，也就两三键吧。
 
-![20220417102417](https://raw.githubusercontent.com/realzhangqingwei/realzhangqingwei.github.io/master/imgs_for_blogs/20220417102417.png)
+![![20220417102417](httpsraw.githubusercontent.comrealzhangqingweirealzhangqingwei.github.iomasterimgs_for_blogs20220417102417.png)](https://raw.githubusercontent.com/realzhangqingwei/realzhangqingwei.github.io/master/imgs_for_blogs/!%5B20220417102417%5D(httpsraw.githubusercontent.comrealzhangqingweirealzhangqingwei.github.iomasterimgs_for_blogs20220417102417.png).png)
