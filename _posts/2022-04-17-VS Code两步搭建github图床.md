@@ -10,7 +10,7 @@ tags:
     - Vscode
     - 扩展
 ---
-> https://mp.weixin.qq.com/s/2HnFrcwxHr5g2VvRB2N_JQ
+> [https://mp.weixin.qq.com/s/2HnFrcwxHr5g2VvRB2N_JQ]()
 
 ## 一、最终效果
 
@@ -40,27 +40,37 @@ VS Code中，可以 **实现图片的一键上传和引用返回** 。免费图�
 
 首先是PicGo-Core设为
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">github</span></code></span></span></p></li></ol></pre>
+```
+github
+```
 
 Branch自己用git命令
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">git branch </span><span class="" mp-original-font-size="13" mp-original-line-height="20">-</span><span class="" mp-original-font-size="13" mp-original-line-height="20">a</span></code></span></span></p></li></ol></pre>
+```
+`git branch -a`
+```
 
 查看自己的branch，我就一个master，所以填的master
 
 Path要和Repo搭配使用，到时候上传的图片就会到**Repo+Path**目录下，比如我的会传到：
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">wyl6</span><span class="" mp-original-font-size="13" mp-original-line-height="20">/</span><span class="" mp-original-font-size="13" mp-original-line-height="20">wyl6</span><span class="" mp-original-font-size="13" mp-original-line-height="20">.</span><span class="" mp-original-font-size="13" mp-original-line-height="20">github</span><span class="" mp-original-font-size="13" mp-original-line-height="20">.</span><span class="" mp-original-font-size="13" mp-original-line-height="20">io</span><span class="" mp-original-font-size="13" mp-original-line-height="20">/</span><span class="" mp-original-font-size="13" mp-original-line-height="20">imgs_for_blogs</span><span class="" mp-original-font-size="13" mp-original-line-height="20">/</span></code></span></span></p></li></ol></pre>
+```
+`wyl6/wyl6.github.io/imgs_for_blogs/`
+```
 
 下面，所以并不需要单独开个repo，加个目录就行。
 
 注意，Path后面加"/"，不然后面一部分会当成图片名称合并进去。比如Path设为：
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">imgs_for_blogs</span><span class="" mp-original-font-size="13" mp-original-line-height="20">/</span><span class="" mp-original-font-size="13" mp-original-line-height="20">hello</span></code></span></span></p></li></ol></pre>
+```
+`imgs_for_blogs/hello`
+```
 
 那么上传world.png时图片会成为：
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">imgs_for_blogs</span><span class="" mp-original-font-size="13" mp-original-line-height="20">/</span><span class="" mp-original-font-size="13" mp-original-line-height="20">helloworld</span><span class="" mp-original-font-size="13" mp-original-line-height="20">.</span><span class="" mp-original-font-size="13" mp-original-line-height="20">png</span></code></span></span></p></li></ol></pre>
+```
+`imgs_for_blogs/helloworld.png`
+```
 
 最后一步的token，从github上重新生成一个就行(token只出现一次，之前的几乎找不到)。首先从头像那打开设置:
 
@@ -78,17 +88,24 @@ Path要和Repo搭配使用，到时候上传的图片就会到**Repo+Path**目�
 
 三个简要命令：
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">ctrl</span><span class="" mp-original-font-size="13" mp-original-line-height="20">+</span><span class="" mp-original-font-size="13" mp-original-line-height="20">alt</span><span class="" mp-original-font-size="13" mp-original-line-height="20">+</span><span class="" mp-original-font-size="13" mp-original-line-height="20">e</span></code></span></span></p></li></ol></pre>
+#### (1)、 `ctrl+alt+e`
 
 从文件目录手动插入图片
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">ctrl</span><span class="" mp-original-font-size="13" mp-original-line-height="20">+</span><span class="" mp-original-font-size="13" mp-original-line-height="20">alt</span><span class="" mp-original-font-size="13" mp-original-line-height="20">+</span><span class="" mp-original-font-size="13" mp-original-line-height="20">u</span></code></span></span></p></li></ol></pre>
+#### (2)、`ctrl+alt+u`
+
 
 从剪贴板插入图片
 
-<pre class="" mp-original-font-size="10" mp-original-line-height="12"><ol class="list-paddingleft-2" mp-original-font-size="10" mp-original-line-height="12"><li mp-original-font-size="10" mp-original-line-height="12"><p mp-original-font-size="10" mp-original-line-height="12"><span mp-original-font-size="14" mp-original-line-height="22"><span mp-original-font-size="14" mp-original-line-height="22"><code class="" mp-original-font-size="10" mp-original-line-height="12"><span class="" mp-original-font-size="13" mp-original-line-height="20">ctrl</span><span class="" mp-original-font-size="13" mp-original-line-height="20">+</span><span class="" mp-original-font-size="13" mp-original-line-height="20">alt</span><span class="" mp-original-font-size="13" mp-original-line-height="20">+</span><span class="" mp-original-font-size="13" mp-original-line-height="20">o</span></code></span></span></p></li></ol></pre>
+#### (3)、`ctrl+alt+o`
 
 从输入目录插入图片，相对目录和绝对目录都行
 
+#### (4)、 常用快捷键如下
+
 > 从命令看，说一键不太准确，也就两三键吧。
 > ![20220417103853](https://raw.githubusercontent.com/realzhangqingwei/realzhangqingwei.github.io/master/imgs_for_blogs/20220417103853.png)
+
+### 四、  参考链接
+
+[[https://mp.weixin.qq.com/s/2HnFrcwxHr5g2VvRB2N_JQ]()]()
